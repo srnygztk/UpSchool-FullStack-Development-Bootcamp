@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{6549DEA3-C735-40EA-910C-6C36D43F80D2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{F9E14375-98AB-460E-BA73-BD40B3A8793E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "src\Domain\Domain.csproj", "{A855C5DA-0473-4BB2-A63B-F4BA495AD031}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Application", "src\Application\Application.csproj", "{6E9B575A-9D8D-4827-9E19-4018BF50D65C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructure", "src\Infrastructure\Infrastructure.csproj", "{37CCF18A-47B1-479C-ADD0-D284363B0A6B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApi", "src\WebApi\WebApi.csproj", "{D52AFE1F-7CB6-4C8A-8CA1-22F5EA0B05A9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Application.UnitTests", "tests\Application.UnitTests\Application.UnitTests.csproj", "{C023CF54-565F-4E95-99F8-3D1EBD496D6E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Application.IntegrationTests", "tests\Application.IntegrationTests\Application.IntegrationTests.csproj", "{F02F0592-2142-412E-8EB7-1A32CB7598FF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A855C5DA-0473-4BB2-A63B-F4BA495AD031} = {6549DEA3-C735-40EA-910C-6C36D43F80D2}
+		{6E9B575A-9D8D-4827-9E19-4018BF50D65C} = {6549DEA3-C735-40EA-910C-6C36D43F80D2}
+		{37CCF18A-47B1-479C-ADD0-D284363B0A6B} = {6549DEA3-C735-40EA-910C-6C36D43F80D2}
+		{D52AFE1F-7CB6-4C8A-8CA1-22F5EA0B05A9} = {6549DEA3-C735-40EA-910C-6C36D43F80D2}
+		{C023CF54-565F-4E95-99F8-3D1EBD496D6E} = {F9E14375-98AB-460E-BA73-BD40B3A8793E}
+		{F02F0592-2142-412E-8EB7-1A32CB7598FF} = {F9E14375-98AB-460E-BA73-BD40B3A8793E}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A855C5DA-0473-4BB2-A63B-F4BA495AD031}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A855C5DA-0473-4BB2-A63B-F4BA495AD031}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A855C5DA-0473-4BB2-A63B-F4BA495AD031}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A855C5DA-0473-4BB2-A63B-F4BA495AD031}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6E9B575A-9D8D-4827-9E19-4018BF50D65C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E9B575A-9D8D-4827-9E19-4018BF50D65C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E9B575A-9D8D-4827-9E19-4018BF50D65C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E9B575A-9D8D-4827-9E19-4018BF50D65C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{37CCF18A-47B1-479C-ADD0-D284363B0A6B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37CCF18A-47B1-479C-ADD0-D284363B0A6B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37CCF18A-47B1-479C-ADD0-D284363B0A6B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37CCF18A-47B1-479C-ADD0-D284363B0A6B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D52AFE1F-7CB6-4C8A-8CA1-22F5EA0B05A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D52AFE1F-7CB6-4C8A-8CA1-22F5EA0B05A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D52AFE1F-7CB6-4C8A-8CA1-22F5EA0B05A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D52AFE1F-7CB6-4C8A-8CA1-22F5EA0B05A9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C023CF54-565F-4E95-99F8-3D1EBD496D6E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C023CF54-565F-4E95-99F8-3D1EBD496D6E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C023CF54-565F-4E95-99F8-3D1EBD496D6E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C023CF54-565F-4E95-99F8-3D1EBD496D6E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F02F0592-2142-412E-8EB7-1A32CB7598FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F02F0592-2142-412E-8EB7-1A32CB7598FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F02F0592-2142-412E-8EB7-1A32CB7598FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F02F0592-2142-412E-8EB7-1A32CB7598FF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
