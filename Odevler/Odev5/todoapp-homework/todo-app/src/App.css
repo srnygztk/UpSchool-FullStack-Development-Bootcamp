@@ -1,0 +1,111 @@
+.App {
+  margin: 0;
+  padding: 2rem;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f5f5f5;
+}
+
+h1 {
+  font-size: 3rem;
+  text-align: center;
+  margin-bottom: 2rem;
+  color: #2185d0;
+}
+
+.todo-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+.todo-input {
+  width: 75%;
+  margin-right: 1rem;
+  font-size: 1.2rem;
+  padding: 0.5rem;
+  border-radius: 10px;
+  border: none;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+}
+
+.todo-button {
+  height: 38px;
+  background-color: #2185d0;
+  color: #fff;
+  border-radius: 10px;
+  border: none;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+}
+
+.sort-buttons .ui.button {
+  height: 38px;
+  background-color: #2185d0;
+  color: #fff;
+  border-radius: 10px;
+}
+
+.todo-list {
+  max-width: 500px;
+  margin: auto;
+}
+
+.todo-item {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0.75rem 0.5rem;
+  cursor: pointer;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+  margin-bottom: 1rem;
+  position: relative;
+}
+
+.todo-icon {
+  margin: 10rem;
+  margin-right: 0.1rem;
+  margin-top: 0.2rem;
+  margin-bottom: 0.2rem;
+  font-size: 1.5rem;
+  color: #2185d0;
+}
+
+.todo-task {
+  margin: 0.2rem;
+  font-size: 1.2rem;
+  text-decoration: none;
+  color: #000;
+  line-height: 1.5em;
+  flex-grow: 1;
+}
+
+.todo-task.completed {
+  text-decoration: line-through;
+  color: #999;
+}
+
+.todo-created {
+  color: #999;
+  font-size: 0.8rem;
+}
+
+.todo-delete {
+  margin-left: 1rem;
+  color: #999;
+  font-size: 1.2rem;
+  cursor: pointer;
+  position: absolute;
+  right: 0.5rem;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.todo-delete:hover {
+  color: #e74c3c;
+}
+
+
+
+
