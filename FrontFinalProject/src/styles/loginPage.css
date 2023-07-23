@@ -1,0 +1,94 @@
+/* loginPage.css */
+
+/* Ana sayfa arka planı - Soft renk */
+body {
+    background-color: #cc9ead;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.box {
+    background-color: #eefff5; /* Kutu rengi değiştirildi */
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 40px auto;
+    max-width: 400px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Login form kutusu - Soft renk, yuvarlatılmış köşeler ve gölge */
+.login-container {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 40px auto;
+    max-width: 400px;
+    box-shadow: 0px 4px 8px rgb(105, 66, 78);
+}
+
+/* Başlık - Soft renk, ortalanmış metin ve yüksek padding */
+h1 {
+    color: #69424e;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Google giriş butonu - Renkler yumuşak ve pastel tonlarda */
+.google-button {
+    display: block;
+    width: 100%;
+    padding: 12px 24px;
+    background-color: #69424e;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+/* Google giriş butonu hover efekti */
+.google-button:hover {
+    background-color: #eefff5;
+}
+
+/* Google giriş butonu aktif durumda */
+.google-button:active {
+    background-color: #e097b3;
+}
+.navbar {
+    display: flex; /* Yanyana olacak şekilde düzenleme için flexbox */
+    background-color: #69424e; /* Navbar arka plan rengi */
+    padding: 10px;
+    color: #fff; /* Navbar yazı rengi */
+}
+.navbar a {
+    color: #fff; /* Navbar link yazı rengi */
+    text-decoration: none;
+    padding: 10px;
+}
+
+.navbar a:hover {
+    color: #cc9ead; /* Navbar link hover rengi */
+}
+.navbar-links{
+    margin-top: 5px;
+    background-color: #69424e;
+}
+
+.main-div {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    align-items : normal;
+    color: #69424e;
+}
+

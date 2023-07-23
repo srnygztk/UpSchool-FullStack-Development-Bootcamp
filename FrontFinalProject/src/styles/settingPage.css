@@ -1,0 +1,10 @@
+h1 {
+    color: #69424e; /* Başlık yazısı beyaz renkte */
+   
+    font-size: 30px;
+    text-align: left;
+    margin-top: 0px; /* Başlık üstte biraz daha yukarıda */
+    padding: 1px; /* Yüksek padding ile kutu gibi durmamış */
+    border-radius: 0px; /* Köşeleri daha yuvarlatılmış */
+    background-color: #cc9ead;
+}

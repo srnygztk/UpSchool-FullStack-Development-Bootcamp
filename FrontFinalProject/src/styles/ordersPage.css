@@ -1,0 +1,16 @@
+h1 {
+    color: #69424e; /* Başlık yazısı beyaz renkte */
+    font-size: 30px;
+    text-align: center;
+    margin-top: 0px; /* Başlık üstte biraz daha yukarıda */
+    padding: 1px; /* Yüksek padding ile kutu gibi durmamış */
+    border-radius: 0px; /* Köşeleri daha yuvarlatılmış */
+    background-color: #cc9ead;
+}
+.Item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin: 10px 0;
+}
